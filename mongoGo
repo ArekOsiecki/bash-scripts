@@ -1,0 +1,7 @@
+#Script to run mongoDB
+
+#!/bin/bash
+
+sudo systemctl start mongod
+sleep 10s
+cd meanjs; gulp
